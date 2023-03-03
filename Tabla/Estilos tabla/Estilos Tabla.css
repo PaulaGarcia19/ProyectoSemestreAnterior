@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #c5ad9f;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    top:0;
+    display: flex;
+    height:100px ;
+    background-color:white;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+    position: fixed;
+    width: 100%; 
+}
+header ul{
+   float:right;
+   margin-right: 20px;
+}
+header ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin:0 5px;
+}
+header ul li a{
+    color: black;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight : bold;
+}
+li a.active, li a:hover{
+    background-color: rgb(170, 149, 143);
+}
+#logo{
+    display: flex;
+    height: 100%;
+} 
+ main{
+    padding-top: 6rem;
+}
+
+tr h2{
+    color: #3d2d23;
+}
+.container{
+    margin: 50px auto;
+    width: 60%;
+}
+
+table{
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 20px rgb(93, 92, 92);
+    width: 100%;
+    
+}
+th,td{
+    padding: 20px;
+    font-size: 20px;
+    
+}
+thead{
+    background-color: rgb(88, 72, 56);
+    border-bottom: solid 2px #010101 ;
+    color: rgb(255, 255, 255);
+}
+
+tr:hover td{
+    background-color: rgb(202, 194, 184);
+}
+.boton{
+    background-color: rgb(150, 125, 96);
+    padding: 4px;
+    border-radius: 4px;
+}
+.boton:hover{
+    background-color: rgb(255, 255, 255);
+}
